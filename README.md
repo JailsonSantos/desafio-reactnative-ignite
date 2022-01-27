@@ -5,18 +5,18 @@
 <h2 align="center">Tabela de Conteúdos</h2>
 
 <p align="center">
- <a href="#objetivo">Sobre</a> •
- <a href="#objetivo">Recursos</a> •
+ <a href="#sobre">Sobre</a> •
+ <a href="#recursos">Recursos</a> •
  <a href="#tecnologias">Tecnologias</a> • 
- <a href="#tecnologias">Status do Projeto</a> • 
+ <a href="#status">Status do Projeto</a> • 
  <a href="#autor">Autor</a>
 </p>
 
-<h2 align="center">Sobre</h2>
+<h2 align="center" id="sobre">Sobre</h2>
 
 <p align="justify">Um App para controle de tarefas a fazer, com ele você vai poder criar, editar, excluir uma tarefa, também vai poder marcar ou descarcar uma tarefa como concluída, e tbm vai ter um contador monstrando quantas tarefas você tem registradas no App, o objetivo o App, é ajudar a ter uma organização das tarefas diárias.</p>
 
-<h3 align="center">Recursos</h3>
+<h3 align="center" id="recursos">Recursos</h3>
 
 - [x] Criar tarefa
 - [x] Editar tarefa
@@ -24,7 +24,7 @@
 - [x] Marcar ou desmarcar tarefas como concluídas
 - [x] Quantificar tarefas cadastradas no app
 
-### 🛠 Tecnologias
+<h3 align="center" id="#tecnologias">🛠 Tecnologias</h3>
 
 <p align="justify">As seguintes ferramentas foram usadas na construção do projeto</p>
 
@@ -33,14 +33,14 @@
 - [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 
-<h2 align="center">Status do Projeto</h2>
+<h2 align="center" id="#status">Status do Projeto</h2>
 
 <h4 align="center"> 
 	🚧  React Native 🚀 Versão 1.0 Concluída.  🚧.
 </h4>
 
 
-## 🦸 Autor
+<h2 align="center" id="#autor">🦸 Autor</h2>
 
 <a href="https://github.com/JailsonSantos">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/11697713?s=96&v=4" width="100px;" alt=""/>
