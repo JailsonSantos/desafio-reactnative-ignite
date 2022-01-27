@@ -2,6 +2,8 @@
   <img alt="LinsTasks" title="#LinsTasks" src="./src/assets/logotipo.png" />
 </h1>
 
+<p align="justify">Seu aplicativo favorito de afarezes</p>
+
 <h2 align="center">Tabela de Conteúdos</h2>
 
 <p align="center">
@@ -27,7 +29,7 @@
 - [x] Contabilizar tarefas cadastradas no App
 
 
-<h2 align="center" id="layout">🎨 Layout</h2>
+<h2 align="left" id="layout">🎨 Layout</h2>
 
 <p align="justify">O layout da aplicação está disponível no Figma:</p>
 
@@ -41,10 +43,11 @@
 <p align="center">
   <img alt="LinsTasksSplash" title="#LinsTasksSplash" src="./src/assets/splash.png" width="200px">
   <img alt="LinsTasksHome" title="#LinsTasksHome" src="./src/assets/home.png" width="200px">
+</p>
+<p align="center">
   <img alt="LinsTasksDigitando" title="#LinsTasksDigitando" src="./src/assets/digitando.png" width="200px">
   <img alt="LinsTasksEditar" title="#LinsTasksEditar" src="./src/assets/editar.png" width="200px">
 </p>
-
 <h3 align="left" id="tecnologias">🛠 Tecnologias</h3>
 
 <p align="justify">As seguintes ferramentas foram usadas na construção do projeto</p>
@@ -75,7 +78,7 @@
 
 
 
-<h2 align="center" id="licenca">📝 Licença</h2>
+<h2 align="left" id="licenca">📝 Licença</h2>
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
