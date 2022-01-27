@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="LinsTasks" title="#LinsTasks" src="./assets/logotipo.png" />
+  <img alt="LinsTasks" title="#LinsTasks" src="./src/assets/logotipo.png" />
 </h1>
 
 <h2 align="center">Tabela de Conteúdos</h2>
@@ -48,7 +48,7 @@
  <sub><b>Jailson Santos</b></sub></a> <a href="https://www.linkedin.com/in/jailson-santos-726395104/" title="Jailson Santos">🚀</a>
  <br />
 
-[![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jailson-santos-726395104/)](https://www.linkedin.com/in/jailson-santos-726395104/) 
+[![Linkedin Badge](https://img.shields.io/badge/-Jailson-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jailson-santos-726395104/)](https://www.linkedin.com/in/jailson-santos-726395104/) 
 [![Gmail Badge](https://img.shields.io/badge/-jailson.ads007@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jailson.ads007@gmail.com)](mailto:jailson.ads007@gmail.com)
 
 
