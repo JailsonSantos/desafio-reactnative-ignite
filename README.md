@@ -6,25 +6,46 @@
 
 <p align="center">
  <a href="#sobre">Sobre</a> •
- <a href="#recursos">Recursos</a> •
+ <a href="#funcionalidades">Funcionalidades</a> •
+ <a href="#layout">Layout</a> •
  <a href="#tecnologias">Tecnologias</a> • 
  <a href="#status">Status do Projeto</a> • 
  <a href="#autor">Autor</a>
+ <a href="#licenca">Licença</a>
 </p>
 
 <h2 align="center" id="sobre">Sobre</h2>
 
-<p align="justify">Um App para controle de tarefas a fazer, com ele você vai poder criar, editar, excluir uma tarefa, também vai poder marcar ou descarcar uma tarefa como concluída, e tbm vai ter um contador monstrando quantas tarefas você tem registradas no App, o objetivo o App, é ajudar a ter uma organização das tarefas diárias.</p>
+<p align="justify">Um App para controle de tarefas a fazer, com ele você vai poder criar, editar, excluir uma tarefa, também vai poder marcar ou descarcar uma tarefa como concluída, o App vai ter um contador monstrando quantas tarefas você tem registradas, seu objetivo é ajudar  o usuário a ter uma organização das tarefas diárias.</p>
 
-<h3 align="center" id="recursos">Recursos</h3>
+<h3 align="left" id="funcionalidades">Funcioalidades</h3>
 
-- [x] Criar tarefa
-- [x] Editar tarefa
-- [x] Excluir tarefa
+- [x] Criar tarefas
+- [x] Editar tarefas
+- [x] Excluir tarefas
 - [x] Marcar ou desmarcar tarefas como concluídas
-- [x] Quantificar tarefas cadastradas no app
+- [x] Contabilizar tarefas cadastradas no App
 
-<h3 align="center" id="#tecnologias">🛠 Tecnologias</h3>
+
+<h2 align="center" id="layout">🎨 Layout</h2>
+
+<p align="justify">O layout da aplicação está disponível no Figma:</p>
+
+<a href="https://www.figma.com/file/sC1HJjTXMzghZdrFw6uuVO/Lins-Tasks?node-id=10485%3A499">
+  <img alt="Made by Jailson Lins" src="https://img.shields.io/badge/Acessar%20Layout-FIGMA-green">
+</a>
+
+
+<h3 align="left" id="layout">Mobile</h3>
+
+<p align="center">
+  <img alt="LinsTasksSplash" title="#LinsTasksSplash" src="./src/assets/splash.png" width="200px">
+  <img alt="LinsTasksHome" title="#LinsTasksHome" src="./src/assets/home.png" width="200px">
+  <img alt="LinsTasksDigitando" title="#LinsTasksDigitando" src="./src/assets/digitando.png" width="200px">
+  <img alt="LinsTasksEditar" title="#LinsTasksEditar" src="./src/assets/editar.png" width="200px">
+</p>
+
+<h3 align="left" id="tecnologias">🛠 Tecnologias</h3>
 
 <p align="justify">As seguintes ferramentas foram usadas na construção do projeto</p>
 
@@ -32,15 +53,16 @@
 - [React](https://pt-br.reactjs.org/)
 - [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Async Storage](https://react-native-async-storage.github.io/async-storage/docs/install)
 
-<h2 align="center" id="#status">Status do Projeto</h2>
+<h2 align="left" id="status">Status do Projeto</h2>
 
-<h4 align="center"> 
+<p align="left"> 
 	🚧  React Native 🚀 Versão 1.0 Concluída.  🚧.
-</h4>
+</p>
 
 
-<h2 align="center" id="#autor">🦸 Autor</h2>
+<h2 align="left" id="autor">🦸 Autor</h2>
 
 <a href="https://github.com/JailsonSantos">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/11697713?s=96&v=4" width="100px;" alt=""/>
@@ -53,7 +75,7 @@
 
 
 
-## 📝 Licença
+<h2 align="center" id="licenca">📝 Licença</h2>
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
