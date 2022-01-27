@@ -1,6 +1,6 @@
 <h1 align="center">
   <img alt="LinsTasks" title="#LinsTasks" src="./src/assets/logotipo.png" />
-  <p align="justify">Seu aplicativo favorito de afarezes</p>
+  <p align="center">Seu aplicativo favorito de afarezes</p>
 </h1>
 
 <h2 align="center">Tabela de Conteúdos</h2>
