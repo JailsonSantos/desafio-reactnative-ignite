@@ -1,8 +1,10 @@
 import React from 'react';
-import { View, Text, StyleSheet, Image } from 'react-native';
+import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
 import { getStatusBarHeight } from 'react-native-iphone-x-helper';
 
-import logoImg from '../assets/images/logo/logo.png';
+import AsyncStorage from '@react-native-async-storage/async-storage'
+
+import logoImg from '../assets/images/logo/tasks.png';
 
 interface HeaderProps {
   tasksCounter: number;
@@ -12,9 +14,15 @@ export function Header({ tasksCounter }: HeaderProps) {
 
   const tasksCounterText = tasksCounter === 1 ? 'tarefa' : 'tarefas'
 
+  function handleRemoveStorage() {
+    AsyncStorage.removeItem('@storage_tasksList')
+  }
+
   return (
     <View style={styles.container}>
-      <Image source={logoImg} />
+      <TouchableOpacity onPress={handleRemoveStorage}>
+        <Image source={logoImg} />
+      </TouchableOpacity>
 
       <View style={styles.tasks}>
         <Text style={styles.tasksCounter}>Você tem </Text>
@@ -29,7 +37,7 @@ const styles = StyleSheet.create({
     paddingTop: getStatusBarHeight(true) + 16,
     paddingHorizontal: 24,
     paddingBottom: 60,
-    backgroundColor: '#8257E5',
+    backgroundColor: '#1a8917',
     justifyContent: 'space-between',
     alignItems: 'center',
     flexDirection: 'row'
